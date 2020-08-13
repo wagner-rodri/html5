@@ -39,6 +39,7 @@ p {
     color: #000;
     text-transform: uppercase;
     text-align: center;
+    
 }
 
 .subtitulo:after {
@@ -179,10 +180,34 @@ p {
 .call {
     text-align: center;
     padding-top: 40px;
-    background: blue;
     clear: both;
 }
 
 .call p {
     margin-bottom: 20px;
+}
+
+/* Portfolio */
+
+.portfolio {
+    margin-top: 60px;
+    width: 100%;
+    background: #000;
+    padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+    color: #FEC63E;
+}
+
+.portfolio .subtitulo:after {
+    background: #FEC63E;
+}
+
+.portfolio_lista li:last-child {
+    margin-top: 20px;
+}
+
+.portfolio .call p {
+    color: #fff;
 }
