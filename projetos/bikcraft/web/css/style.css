@@ -75,6 +75,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 
@@ -234,6 +235,10 @@ img {
 
 .produtos_lista li p {
     padding: 10px 20px 20px 20px;
+}
+
+.produtos_lista li img {
+    margin: 0 auto;
 }
 
 .call {
