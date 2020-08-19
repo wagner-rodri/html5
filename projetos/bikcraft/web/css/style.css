@@ -299,13 +299,14 @@ img {
 }
 
 .qualidade_lista {
-    padding-top: 20px;
+    padding: 20px 0 0 25px;
     overflow: auto;
 }
 
 .qualidade_lista li {
     text-align: center;
     padding: 0 40px;
+    margin: 0 auto;
 }
 
 .qualidade_lista li h3 {
