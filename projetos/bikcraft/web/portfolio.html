@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-portfolio.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add('js')</script>
+
 </head>
 <body>
     <!-- Início "Header" -->
@@ -40,20 +42,32 @@
     </section>    
     <!-- Fim "Introdução Interna" -->
 
-    <section class="container">
+    <section class="container" data-slide="quote">
         <blockquote class="quote_cliente">
             <p>"Industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"</p>
             <cite>Barbara Moss</cite>
         </blockquote>
+        <blockquote class="quote_cliente">
+            <p>"Industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"</p>
+            <cite>Jhon Lima</cite>
+        </blockquote>
+        <blockquote class="quote_cliente">
+            <p>"Industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"</p>
+            <cite>Joeden Santos</cite>
+        </blockquote>
     </section>
 
     <section class="portfolio">
-        <div class="container">
+        <div class="container" data-slide="portfolio">
             <ul class="portfolio_lista">
                 <li class="grid-8"><img src="img/fotos/retro.jpg" alt="bikcraft retro"></li>
                 <li class="grid-8"><img src="img/fotos/passeio.jpg" alt="bikcraft passeio"></li>
                 <li class="grid-16"><img src="img/fotos/esporte.jpg" alt="bikcraft esporte"></li>
-
+            </ul>
+            <ul class="portfolio_lista">
+                <li class="grid-8"><img src="img/fotos/passeio.jpg" alt="bikcraft passeio"></li>
+                <li class="grid-8"><img src="img/fotos/retro.jpg" alt="bikcraft retro"></li>
+                <li class="grid-16"><img src="img/fotos/esporte.jpg" alt="bikcraft esporte"></li>
             </ul>
         </div>     
     </section>
@@ -104,5 +118,9 @@
         </div>
     </footer>
     <!-- Fim "Footer" -->
+
+    <script src="js/simple-slide.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
