@@ -442,6 +442,9 @@ img {
 
 .js [data-anime] {
     opacity: 0;
+}
+
+.js .fadeInDown {
     transform: translate3d(0,-20px,0);
 }
 
