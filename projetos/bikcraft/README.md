@@ -1,4 +1,5 @@
 # html5
  Projeto da página da Bikcraft executado como projeto prático do curso de Web Design Completo da Origamid.<br><br>
  O foco deste projeto é o desenvolvimento de uma página de uma empresa que fabrica bicicletas de modo artesanal a partir do zero, compreendendo o planejamento do site, desenvolvimento do wireframe em AdobeXD, estilização em CSS e Javascript básico.<br><br>
- Neste projeto foi utilizado o método @media Query para tornar o site responsivo, organizando-o com a utilização de grid fixo.
+ Neste projeto foi utilizado o método @media Query para tornar o site responsivo, organizando-o com a utilização de grid fixo.<br><br>
+ A pasta PHPMailer contém arquivos que não são de minha autoria, pois, como o objetivo do curso é aplicar conhecimentos básicos em web development, não foram ensinadas programações com nível de conhecimento maior, portanto foi utilizado este plug-in disponibilizado durante o curso para funcionamento  dos formulários de contato para que tal aplicação passasse a funcionar, com objetivo acadêmico, apenas.
