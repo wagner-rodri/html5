@@ -2,11 +2,11 @@
 if (window.SimpleSlide) {
 new SimpleSlide ({
     slide:"quote",
-    time:5000
+    time:3000
 })
 new SimpleSlide ({
     slide:"portfolio",
-    time:5000,
+    time:3000,
     nav: true
 })
 }
